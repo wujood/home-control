@@ -1,0 +1,16 @@
+{
+  "name": "response-time-measurer",
+  "version": "1.0.0",
+  "description": "Measure and visualize HTTP response times for a given URL",
+  "main": "measureResponseTimes.js",
+  "scripts": {
+    "start": "node measureResponseTimes.js http://192.168.0.248:3000/messages 50"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
